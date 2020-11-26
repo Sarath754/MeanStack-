@@ -1,0 +1,43 @@
+h1{
+    color: red;
+}
+
+#one{
+
+    color: rgb(23, 64, 52 );
+
+}
+
+body {
+
+    background-image: url(ipl..jpg);
+
+    background-repeat:no-repeat;
+
+    background-size: 100% 100%;
+}
+
+div{
+
+    border-style:solid ;
+    border-color:white;
+    background-color: yellow;
+    
+    
+}
+
+
+#mi{
+    border-style:solid ;
+    border-color:black;
+    background-color:blue;
+    
+
+}
+
+
+
+.team{
+
+    background-color: red;
+}

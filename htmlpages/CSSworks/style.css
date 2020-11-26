@@ -1,0 +1,39 @@
+h1{
+
+
+    color: rgb(207, 228, 21);
+}
+
+
+
+
+#one{
+
+    color: darkred;
+}
+
+
+
+
+body {
+
+    background-image:url(ipl..jpg);
+
+    background-repeat: no-repeat;
+}
+
+
+div {
+border border-width: 5px;
+border-style: solid;
+    border-color:red;
+    background-color: rgb(207, 228, 21);
+}
+
+
+#mi {
+
+    border-color:blue;
+    border-style: dotted;
+    background-color: skyblue;
+}

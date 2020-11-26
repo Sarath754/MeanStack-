@@ -1,0 +1,33 @@
+#top{
+
+border-style: solid;
+border-color: red;
+border-width: 6px;
+width: 50%;
+margin-left: 200px;
+margin-top: 5%;
+padding-left: 50px;
+background-color: yellow;
+font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+
+#bottom{
+
+    border-style: solid;
+    border-color:green;
+    border-width: 6px;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 200px;
+    padding-left: 50px;
+    background-color: blue;
+    font-family: 'Modak', cursive;
+
+
+
+}
+body{
+
+    background-color: black;
+}

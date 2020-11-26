@@ -1,0 +1,49 @@
+h1{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+
+    text-align: center;
+
+}
+
+td{
+
+
+    height: 500px;
+    border: 5px solid black;
+    padding: 100px;
+}
+
+
+
+table{
+
+    margin: auto;
+}
+
+#one{
+
+    background-color: yellow;
+}
+
+#two{
+
+    background-color: blue;
+}
+
+#three{
+
+    background-color: red;
+}
+
+#four{
+
+      background-color: green;
+}
+
+
+#five{
+
+    background-color: orange;
+}
+
+
