@@ -23,6 +23,9 @@ margin-left:30% ;
 }
 
 
+
+
+
 </style>
 
 </head>
@@ -32,8 +35,10 @@ margin-left:30% ;
 
 
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" >
-        <a class="navbar-brand" style="background-color: white;" href="#" >Navbar</a>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" >
+      <a class="navbar-brand" href="#">
+        <img src="gita.png" width="30" height="30" alt="">
+    </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -66,8 +71,29 @@ margin-left:30% ;
               </li>
 
 
+
+</ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input  class="form-control bg-dark " type="search" placeholder="Search GitHub" aria-label="Search">
+                <button class="btn btn-dark my-2 my-sm-0 bg-dark" type="submit">Sign in</button>
+              </form>
+
+
+
+
+
+
+
+
+
+
+
         </div>
       </nav>
+
+
+
+
 
 
 <div class="container">
@@ -88,40 +114,55 @@ margin-left:30% ;
 
     <div class="form-group" style="margin-top: 3%;">
 
-        <input type="text" class="form-control" id="" placeholder="User Name">
+      <label >User Name</label>
+
+        <input type="text" class="form-control" id="" placeholder="">
        
       
        </div>
       
 
+        
+       <div class="form-group" style="margin-top: 3%;">
+
+        <label>Email</label>
+
+        <input type="text" class="form-control" id="" placeholder="">
+       
+      
+       </div>
+      
 
        <div class="form-group" style="margin-top: 3%;">
 
-        <input type="text" class="form-control" id="" placeholder="Email">
+        <label>Password</label>
+
+        <input type="Password" class="form-control" id="" placeholder="">
        
       
        </div>
       
-
-       <div class="form-group" style="margin-top: 3%;">
-
-        <input type="Password" class="form-control" id="" placeholder="Password">
-       
-      
-       </div>
-      
-
+          <p class="small text-gray-soft">
        Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter. <BR>
+           </p>
+
+
 
         <a href="">Learn More</a> <br>
 
 
 
 
-   <p>Email preferences</p> 
+        <label class="font-weight-bold" style="margin-top:3%">Email preferences</label>
+
+   
+        <div class="checkbox mb-3">
+          <label class="small text-gray-soft"><input type="checkbox"  value="remember-me">Send me occasional product updates, announcements, and offers.</label>
+      </div>
+              
 
 
-   <div class="form-group" >
+   <div class="form-group"  >
 
       
     <button  class="btn btn-primary btn-lg btn-block " id="one"> Create Account </button>
