@@ -16,7 +16,7 @@ while(i<5){
 
     console.log("helloworld")
 
-    i+=1;
+    i++;
 }
 
 
