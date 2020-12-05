@@ -7,6 +7,6 @@ while(i<=5){
     total=total+i;
 
     i++;
-}
+}r
 
 console.log(total)

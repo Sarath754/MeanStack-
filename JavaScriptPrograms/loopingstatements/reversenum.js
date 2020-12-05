@@ -2,12 +2,13 @@
 
 var num=123;
 
-var digit=123%10; //3
-num=math. floor (num/10); //12 remove the point values
+while(num!=0){
 
-var digit=12%10; //2
-num=math.floor(num/10)  //1
+    var digit=num%10;   //3
+    console.log(digit);
+    num=math.floor(num/10);             //12 remove the point values
 
-var digit=1%10;  //1
+
+}
 
 
