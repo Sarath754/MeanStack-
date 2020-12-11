@@ -33,6 +33,6 @@ console.log(employee)
 
 //update salary with 5000
 
-employee["salary"]+=5000;
+employee["salary"]+=6000;
 
 console.log(employee)
