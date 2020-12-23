@@ -41,3 +41,6 @@ console.log(play)
 var play=players.map(plr=>plr.runs).reduce((pl1,pl2)=>pl1<pl2?pl1:pl2)
 
 console.log(play)
+
+
+
