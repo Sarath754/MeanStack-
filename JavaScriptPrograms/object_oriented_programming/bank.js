@@ -46,7 +46,7 @@ var obj=new Bank()
 
 obj.accountCreate(100,"sarath",5000);
 
-obj.deposit(50000)
+obj.deposit(20000)
 
 
 
