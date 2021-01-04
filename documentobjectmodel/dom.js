@@ -36,12 +36,12 @@
 
 var lis=document.querySelectorAll("li");
 
-lis.foreach(li=>li.style.color="green")
+lis.forEach(li=>li.style.color="green")
 
 
 var ls=document.querySelectorAll(".lis")
 
-ls.foreach(l=>l.style.color="red")
+ls.forEach(l=>l.style.color="red")
 
 
 var hd=document.querySelector("#one")
