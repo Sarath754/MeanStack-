@@ -7,3 +7,5 @@ cl.addEventListener("click",()=>{
     cl.style.color="red";
 
 })
+
+
