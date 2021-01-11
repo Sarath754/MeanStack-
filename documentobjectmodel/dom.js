@@ -11,22 +11,22 @@ var hd=document.getElementById("one")
 
 hd.style.color="cyan"
 
-// var hd=document.getElementById("two")
+var hd=document.getElementById("two")
 
-// hd.style.color="blue"
+hd.style.color="blue"
 
-// var lis=document.getElementsByClassName("lis");
+var lis=document.getElementsByClassName("lis");
 
-// for(head of lis){
+for(head of lis){
 
-//     head.style.color="green";
-// }
+    head.style.color="green";
+}
 
 
-// var dm=document.getElementById("dm")
+var dm=document.getElementById("dm")
 
-// dm.textContent="DocumentObjectMethods"
-// dm.innerHTML="<em>Documentobjectmethods</em>" //italics font varan
+dm.textContent="DocumentObjectMethods"
+dm.innerHTML="<em>Documentobjectmethods</em>" //italics font varan
 
 
 // var h1=document.getElementById("one")
