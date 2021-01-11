@@ -13,7 +13,7 @@ for(let i=0;i<3;i++){            //i=0; 0<3 ;1<3; 2<3
 
 //difference ............let scope block ....oru block nnte ulill annuu.....
 
-//var scope global scope
+//var scope -----global scope
 
 
 //constant ayitu use cheyanamagill .............const........... use cheyam

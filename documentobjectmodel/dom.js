@@ -1,15 +1,15 @@
-// var heads=document.getElementsByTagName("h1")
+var heads=document.getElementsByTagName("h1")
 
-//     for(head of heads){
+    for(head of heads){
 
-//         head.style.color="red";
+        head.style.color="red";
     
-//     }
+    }
 
 
-// var hd=document.getElementById("one")
+var hd=document.getElementById("one")
 
-// hd.style.color="cyan"
+hd.style.color="cyan"
 
 // var hd=document.getElementById("two")
 
@@ -34,16 +34,16 @@
 // alert(h1.textContent)
  
 
-var lis=document.querySelectorAll("li");
+// var lis=document.querySelectorAll("li");
 
-lis.forEach(li=>li.style.color="green")
-
-
-var ls=document.querySelectorAll(".lis")
-
-ls.forEach(l=>l.style.color="red")
+// lis.forEach(li=>li.style.color="green")
 
 
-var hd=document.querySelector("#one")
+// var ls=document.querySelectorAll(".lis")
 
-hd.style.color="green"
+// ls.forEach(l=>l.style.color="red")
+
+
+// var hd=document.querySelector("#one")
+
+// hd.style.color="green"
