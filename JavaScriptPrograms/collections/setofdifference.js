@@ -1,4 +1,4 @@
-let arr=[3,4,6]         //ouput=10,9,7 
+let arr=[3,4,6]         //ouput=10,9,7  ///7/12/2020 9.22
 
  var total=0;
 
@@ -23,8 +23,8 @@ total+=num;
 
     item=total-num;
 
-    res.push(item);
-
+    res.push(item)
+   
 
  }
 

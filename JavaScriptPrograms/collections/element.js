@@ -1,6 +1,6 @@
 var arr=[1,5,3,6,2,8,4];
 
-//linear searching
+//linear searching                                   7/12/2020........47.52
 
 var element=10 ;
 
@@ -28,3 +28,7 @@ break;
 
     console.log("element found")
  }
+
+
+ 
+
