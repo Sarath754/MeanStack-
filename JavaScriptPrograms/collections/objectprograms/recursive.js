@@ -1,4 +1,4 @@
-var pattern="ABABC"
+var pattern="ABABC"                       //11/12/2020.......47:00 {15}
 
 var dict={}
 

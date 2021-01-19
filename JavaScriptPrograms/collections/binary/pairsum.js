@@ -1,4 +1,4 @@
-var arr=[1,2,3,4,6]    //output=6(2,4)
+var arr=[1,2,3,4,6]    //output=6(2,4)       9/dec/2020.....8:35
 
 
 //0  1  2  3  4  
@@ -15,9 +15,9 @@ var upp=arr.length-1;
 
 var element=6;
 
-while(low<upp){
+while(low<upp){    //0<4
 
-    let total=arr[low]+arr[upp];
+    let total=arr[low]+arr[upp];//arr[0]1+arr[4]6
 
     if (total>element){
 

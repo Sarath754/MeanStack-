@@ -1,4 +1,4 @@
-
+//11/12/2020.........1:13:00[15]
 
 //squares..................
 
@@ -56,13 +56,15 @@ var data=arr.filter(num=>num%2==0)   //coressponding numbers
 console.log(data)
 
 
+//1:18:00
+
 var names=["sarath","dhoni","csk","chennaisuperkings","jadeja","jaddu"]
 
 var data=names.map(name=>name.toUpperCase())
 
 console.log(data)
 
-var data=names.filter(name=>name.charAt()=="j")
+var data=names.filter(name=>name.charAt()=="j")   //1:21:30
 
 console.log(data)
 

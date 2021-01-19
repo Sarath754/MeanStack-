@@ -1,4 +1,4 @@
-var text= "hello hai hello hai";
+var text= "hello hai hello hai";     //11/12/2020.......10:00 {15}
 
 //hello=2
 

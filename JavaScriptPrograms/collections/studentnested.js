@@ -1,4 +1,4 @@
-var std=[
+var std=[                  //9/12/2020.............35:45
 
 [1,"st1","mca",142],
 [2,"st2","mca",145],
@@ -45,4 +45,7 @@ console.log(total)
 
 
 //find student who have highest mark
+
+
+
 

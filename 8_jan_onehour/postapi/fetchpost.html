@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+
+
+        <div class="row">
+
+            <div class="col-4"></div>
+            <div class="col-4">Create Your Post</div>
+            <div class="col-4"></div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-4"></div>
+            <div class="col-4">
+
+
+
+                <label for="">Postid</label>
+                <input type="text" class="form-control" name="" id="pid">
+                <br>
+                <button type="button" onclick="getPost()" class="btn btn-primary">CreatePost</button>
+
+            </div>
+
+            <div class="col-4"></div>
+
+        </div>
+
+<hr>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-2"></div>
+        <div class="col-8">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">userid</th>
+                        <th scope="col">id</th>
+                        <th scope="col">title</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+
+<tbody id="result">
+
+
+</tbody>
+
+            </table>
+
+
+        </div>
+        <div class="col-2"></div>
+
+    </div>
+
+
+</body>
+
+
+
+<script>
+    var xhr = new XMLHttpRequest();
+
+    var url = ""
+
+    function getPost() {
+
+        var pid = document.querySelector("#pid").value
+
+        url = "https://jsonplaceholder.typicode.com/posts/" + pid;
+
+
+        fectchPost(url)
+    }
+
+
+
+
+
+    function fectchPost(url) {
+        alert(url)
+        xhr.open("get", url)
+        xhr.send()
+
+
+    }
+    xhr.onreadystatechange = () => {
+
+
+        if (xhr.readyState == 4) {
+
+            if ((xhr.status >= 200) & (xhr.status < 300)) {
+
+                console.log("sucess")
+                console.log(xhr.status)
+                // alert(xhr.responseText)
+                var post=JSON.parse(xhr.responseText)
+                console.log(post)
+
+                var html_data=""
+
+                html_data=html_data+"<tr><td>"+post.userid+"</td></tr>"+"<tr><td>"+post.id+"</td></tr>"+"<tr><td>"+post.title +"</td></tr>"
+
+
+                document.querySelector("#result").innerHTML=html_data
+            }
+            else {
+
+
+                console.log(xhr.status)
+
+
+            }
+
+
+
+            console.log("task complete")
+        }
+
+
+    }
+
+
+
+</script>
+
+</html>

@@ -1,4 +1,4 @@
-var students={
+var students={                   //9/dec/2020.......54:20
 
 
     rol:100,
@@ -15,7 +15,7 @@ var students={
 
 //accesing values
 
-//if we want to acess value we have to use corresponding value
+//if we want to acess value we have to use corresponding key
 
 console.log(students.rol)
 
@@ -23,7 +23,7 @@ console.log(students.rol)
 
 console.log(students["rol"])
 
-
+//iterating
 
 for (let std in students){
 
