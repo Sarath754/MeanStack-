@@ -2,7 +2,7 @@ var employees=[                            //  21/12/2020.....33:08[16]
 
 {id:100,name:"sarath",salary:25000,year_join:1980,year_resign:1990},
 
-{id:100,name:"Dhoni",salary:22000,year_join:1982,year_resign:1989},
+{id:100,name:"M S Dhoni",salary:22000,year_join:1982,year_resign:1989},
 
 {id:100,name:"raina",salary:30000,year_join:1980,year_resign:1991},
 

@@ -17,7 +17,7 @@ var players=[
 
 {name:"rohit",debut:2009,retired:2024,runs:50102},
 
-{name:"deepak",debut:2010,retired:2025,runs:60102},
+{name:"deepak chahar",debut:2010,retired:2025,runs:60102},
 
 {name:"nataajan",debut:2011,retired:2026,runs:70102},
 
