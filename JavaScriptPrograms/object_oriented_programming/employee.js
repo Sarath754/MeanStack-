@@ -51,7 +51,7 @@ arr.forEach(emp=>console.log(emp.ename))
 
 //print in upper case
 
-// arr.forEach(emp=>console.log(emp.ename.touppercase()))
+arr.forEach(emp=>console.log(emp.ename.toUpperCase()))
 
 //print employee whose salary >23000
 
@@ -61,5 +61,11 @@ arr.filter(emp=>emp.salary>23000).forEach(emp=>console.log(emp.ename))
 
 
 var sal=arr.map(emp=>emp.salary).reduce((sal1,sal2)=>sal1>sal2?sal1:sal2)
+
+console.log(sal)
+
+
+
+var sal=arr.map(emp=>emp.salary).reduce((sal1,sal2)=>sal1<sal2?sal1:sal2)
 
 console.log(sal)

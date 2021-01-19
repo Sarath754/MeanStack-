@@ -1,4 +1,4 @@
-// class student{
+// class student{                               //22/12/2020    [22]   31:00
 // setstudent=(rol,name,course)=>{
 
 // this.rol=rol;
@@ -21,7 +21,7 @@
 // }
 
 
-// var obj=new student();
+// var obj=new student();   //obj===reference name
 
 // obj.setstudent(84,"sarath","Btech");
 
@@ -29,14 +29,15 @@
 
 //......................................
 
-// console.log(obj.name)
+// console.log(obj.name)  outside the class
 
-//.............................................
+//.............................................outside the class
 
 // obj.name="Sarath"
 
 // console.log(obj.name)
 
+//................................................................
 
 //different types of variables
 
@@ -44,7 +45,7 @@
 
 //instance variables are always prepended with this keyboard
 
-//we can access instance variable with int the class by using "this" keyword
+//we can access instance variable with in the class by using "this" keyword
 
 //we can access instance variable outside class by using reference name.instance variable name
 
@@ -54,9 +55,12 @@
 
 
 
-//setstudent()   duty? =initilizating instance variable==constructor
+//setstudent()   duty? =initilizating instance variable==constructor    45:00
 
 
+//....................................................................................................................................................
+
+//using constructor                    47:00
 
 
 class student{

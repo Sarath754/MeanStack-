@@ -1,4 +1,4 @@
-//class=>blue print,plan,design,pattern   for build a construction
+//class=>blue print,plan,design,pattern   for build a construction           //22/12/2020    [22]   6:25
 
 //object=>real world  entity.............eg-(mi tv) mi is the object and tv is the class
 
@@ -28,6 +28,8 @@ printperson=()=>{
 
 }
 
+//there are two methods in this prgm    1)setperson    2)print person
+
 //object
 
 
@@ -43,7 +45,15 @@ obj1.setPerson(30,"Dhoni","male")
 
 obj1.printperson()
 
+var obj3=new person()
+
+obj.setPerson(15,"raina","male")
+
+obj.printperson()
+
 
 
 
   
+
+
