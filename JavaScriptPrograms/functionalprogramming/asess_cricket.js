@@ -19,7 +19,7 @@ var players=[
 
 {name:"deepak",debut:2010,retired:2025,runs:60102},
 
-{name:"natarajan",debut:2011,retired:2026,runs:70102},
+{name:"nataajan",debut:2011,retired:2026,runs:70102},
 
 ]
 
