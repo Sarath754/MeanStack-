@@ -1,4 +1,4 @@
-class parent{
+class parent{            //23/12/2020.........[13:00]{18}
     m1=()=>{
 
         console.log("inside parent1")
@@ -27,10 +27,10 @@ sb.m3()
 sb.m2()
 sb.m1()
 
-var ch=new child
+var ch=new child()
 ch.m2()
 ch.m1()
 
-var p=new parent
+var p=new parent()
 
 p.m1()

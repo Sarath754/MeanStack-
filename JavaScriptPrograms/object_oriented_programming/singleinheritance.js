@@ -1,4 +1,4 @@
-class parent{
+class parent{                            //23/12/2020.........[6:40]{18}
 phone=()=>{
 
     console.log("have nokia 5310")

@@ -1,4 +1,4 @@
-class Bank{
+class Bank{                      //41:41      23/12/2020 {18}
 
     accountCreate=(acno,name,minimum_balance)=>{
 
