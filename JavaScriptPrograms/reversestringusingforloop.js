@@ -38,6 +38,7 @@
 
 var word = "Sarath";
 var reverseWord = word.split("").reverse().join("");
+
 console.log("Reversed str is:", reverseWord);
 
 
